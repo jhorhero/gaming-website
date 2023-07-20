@@ -1,0 +1,151 @@
+@media screen and (max-width:576px) {
+    .menu, .nav-container, .play-container{
+        flex-direction: column;
+    }
+    .nav-container{
+        width: 100%;
+       
+    }
+    .gamer-icon{
+        width: 50%;
+        padding: 0 auto;
+        
+    }
+    .menu li{
+        margin-top: 20px;
+
+    }
+    .menu{
+        width: 100%;
+    }
+    .nav-btn{
+        margin-top: 40px;
+        
+    }
+
+    /* Play container section */
+    .play-img-container {
+        width: 100%;
+    
+        
+    }
+    .play-text{
+      width: 
+      100%;
+   
+       
+    }
+    .goat-title{
+        font-size: 60px;
+    }
+    .play-title{
+        font-size: 30px;
+    }
+    .play-des{
+        font-size: 1.2rem;
+    }
+    .btn{
+        padding: 10px 20px;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .play-container{
+        flex-direction: column-reverse;
+        
+       
+    }
+
+    /* online section  */
+    .photo-container{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 50px;
+        
+       
+    }
+    .online-container{
+
+        margin-top: 100px;
+    }
+    .online-title, .funny-title{
+        font-size: 25px;
+        width: 1005;
+    }
+    .online-des{
+        top: 2px;
+        font-size: 12px;
+    }
+ 
+    .play-button{
+        width: 48px;
+    }
+
+    .content{
+      
+        opacity: 0;
+        transition: 0.6s;
+       }
+
+  
+    .photo{
+    
+
+        margin: 0 auto;
+    }
+
+
+    /* no downaload  */
+
+    .no-download-container{
+        flex-direction: column;
+    }
+    .two-img{
+        width: 100%;
+    }
+    .doll{
+        
+        width: 50%;
+        position: absolute;
+        top: 75%;
+        left: -40px;
+    }
+    .no-download-title{
+        font-size: 25px;
+        width: 300px;
+        height: auto;
+        text-align: center;
+
+    }
+    .download-des{
+        width: 300px;
+        padding: 0;
+        text-align: center;
+        font-size: 14px;
+        
+    }
+
+    /* icon section  */
+
+    .icon-container{
+        display: grid;
+        
+        
+    }
+    .little-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+
+
+    
+}
+
+
+
+tablet device 
+@media screen and (min-width:576px) and (max-width:916px) {
+    .nav-container{
+     width:100%;
+    }
+
+}
