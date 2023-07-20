@@ -147,19 +147,10 @@ background: #4EC5F7;
 margin-left: 20px;
 }
 .play-text{
-
-   
    width: 50%;
    height: auto;
-   
-   padding-left: 100px;
+    padding-left: 100px; 
    background-color: #8C57EE0D, #F144AE0D;
-    
-  
- 
-
-
-
    
 }
 .play-img-container{
@@ -171,13 +162,15 @@ margin-left: 20px;
 }
 .play-container{
     display: flex;
+    width: 100%;
     max-width: 1400px;
-    min-height: 600px; 
+    min-height: 600px;
     justify-content: space-around;
     align-items: center;
     background-image: url(images/Group\ 14.png); 
     background-repeat: no-repeat;
-    background-size: 620px;
+    background-size: 650px 600px;
+
     
 }
 
